@@ -44,6 +44,18 @@ Power: DHT11 `VCC`, IR `VCC`, and water sensor `+` all go to **3V3**; all ground
 
 > **Note on GPIO34:** it's an input-only ADC1 pin, which is exactly what the analog water sensor needs and is safe to use alongside WiFi.
 
+### Hardware setup
+
+![Hardware setup](images/hardware.jpg)
+
+*Replace `images/hardware.jpg` with a photo of your assembled circuit.*
+
+## Simulation
+
+![Circuit simulation](images/simulation.png)
+
+*Replace `images/simulation.png` with a screenshot of your Wokwi / Tinkercad simulation.*
+
 ## Software setup
 
 ### 1. Prerequisites
@@ -121,6 +133,10 @@ alarm = obstacle OR rain OR (temperature >= TEMP_LIMIT_C)
 
 If `alarm` is true → **red LED on, buzzer on**. Otherwise → **green LED on**. While disarmed, everything is off.
 
+![Logic flowchart](images/flowchart.png)
+
+*Replace `images/flowchart.png` with your flowchart of the alarm logic.*
+
 ## Configuration / tuning
 
 All adjustable values live at the top of `src/main.cpp`:
@@ -142,6 +158,10 @@ All adjustable values live at the top of `src/main.cpp`:
 ├── platformio.ini      # Board, framework, and library dependencies
 ├── src/
 │   └── main.cpp         # All firmware logic
+├── images/
+│   ├── hardware.jpg     # Photo of the assembled circuit
+│   ├── simulation.png   # Wokwi / Tinkercad screenshot
+│   └── flowchart.png    # Alarm logic flowchart
 └── README.md
 ```
 
