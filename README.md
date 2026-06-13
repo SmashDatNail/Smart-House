@@ -46,13 +46,15 @@ Power: DHT11 `VCC`, IR `VCC`, and water sensor `+` all go to **3V3**; all ground
 
 ### Hardware setup
 
-![Hardware setup](Images/hardware.jpg)
-
-
+<p align="center">
+  <img src="Images/hardware.jpg" alt="Hardware setup" width="600">
+</p>
 
 ## Simulation
 
-![Circuit simulation](Images/simulation.png)
+<p align="center">
+  <img src="Images/simulation.png" alt="Circuit simulation" width="600">
+</p>
 
 
 
@@ -133,8 +135,9 @@ alarm = obstacle OR rain OR (temperature >= TEMP_LIMIT_C)
 
 If `alarm` is true → **red LED on, buzzer on**. Otherwise → **green LED on**. While disarmed, everything is off.
 
-![Logic flowchart](Images/flowchart.png)
-
+<p align="center">
+  <img src="Images/flowchart.png" alt="Logic flowchart" width="380">
+</p>
 
 ## Configuration / tuning
 
