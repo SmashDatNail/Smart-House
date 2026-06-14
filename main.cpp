@@ -4,8 +4,8 @@
 #include <DHT.h>
 
 // ---------- WiFi credentials (fill these in) ----------
-const char* WIFI_SSID = "Q=mcθ";
-const char* WIFI_PASS = "NailIrfan4406";
+const char* WIFI_SSID = "Wifi_Name";
+const char* WIFI_PASS = "Wifi_Pass";
 // ---------- Pin assignments (DOIT ESP32 DevKit V1) ----------
 // ---------- Pin assignments (DOIT ESP32 DevKit V1) ----------
 constexpr uint8_t PIN_DHT       = 4;
